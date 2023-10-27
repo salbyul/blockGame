@@ -4,6 +4,10 @@ import com.game.block.BlockShape;
 
 import java.util.Objects;
 
+/**
+ * 위치와 블럭 모양을 담고 있는 클래스
+ * 특정 위치에 블럭을 놓을 경우 주로 사용된다.
+ */
 public class Point {
 
     private final int x;

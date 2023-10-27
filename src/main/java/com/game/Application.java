@@ -13,7 +13,7 @@ import java.util.List;
 public class Application {
 
     public static void main(String[] args) {
-        Board board = new Board(new boolean[5][5]);
+        Board board = new Board(new boolean[5][5]); // 1자리 크기의 블럭판만 구현
         List<BlockShape> blockShapeList = List.of(BlockShapeEnum.values());
 
         Game game = new Game(
